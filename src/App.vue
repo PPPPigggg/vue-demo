@@ -13,6 +13,11 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/attrs">默认attrs</RouterLink>
+        <RouterLink to="/async">异步组件</RouterLink>
+        <RouterLink to="/keepAlive">缓存组件</RouterLink>
+        <RouterLink to="/tsCmp">tsCmp</RouterLink>
+        <RouterLink to="/myJsx">myJsx</RouterLink>
       </nav>
     </div>
   </header>
